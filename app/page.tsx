@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <div className='w-full sm:w-3/4 md:w-2/3 lg:w-2/3 px-[4vw] sm:p-0 flex flex-col items-center justify-center'>
-        <h1 className="text-6xl sm:text-9xl font-bold pt-[25vh] text-center">Hi. I'm Sanyam.</h1>
+        <h1 className="text-6xl sm:text-9xl font-bold pt-[25vh] text-center">Hi. I&apos;m Sanyam.</h1>
         <h2 className='text-6xl sm:text-9xlfont-bold text-center'>A Fronend Developer.</h2>
-        <p className='text-center pt-[9vh] text-lg sm:text-2xl'>Hello! I'm am 3rd Year Student at NIT Jalandhar focused on building scalable products with a strong emphasis on user experience, developer experience, and meaningful impact.</p>
+        <p className='text-center pt-[9vh] text-lg sm:text-2xl'>Hello! I&apos;m am 3rd Year Student at NIT Jalandhar focused on building scalable products with a strong emphasis on user experience, developer experience, and meaningful impact.</p>
         <div className="w-full">
           <Card />
 

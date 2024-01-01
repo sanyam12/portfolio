@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import { Url } from "next/dist/shared/lib/router/router";
 import Link from "next/link";
+import Image from "next/image";
 interface IButtonProps {
     path: string;
     onClick: () => void;
@@ -19,7 +20,7 @@ const Button: React.FC<IButtonProps> = (props) => {
                     }
                     onClick={props.onClick}
                 >
-                    <img src={props.path} alt="Home Button" />
+                    <Image width={500} src={props.path} alt="Home Button" />
                 </button>
         </Link>
 
