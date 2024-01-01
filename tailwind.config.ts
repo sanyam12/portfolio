@@ -12,6 +12,11 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'custom-gradient': "url('/background.svg')",
+      },
+      backgroundColor: {
+        'custom-gray': 'rgba(46, 46, 46, 1)',
+        'custom-gray-90': 'rgba(46, 46, 46, 0.9)',
       },
     },
   },
