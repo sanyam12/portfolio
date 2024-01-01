@@ -3,7 +3,7 @@ import CustomLink from "./customLink";
 
 export default function Card() {
     return (
-        <div className='flex flex-col items-center justify-center w-full bg-custom-gray rounded-2xl shadow-2xl mt-[6vh] py-[3vh] px-3 sm:px-5'>
+        <div className='flex flex-col items-center justify-center w-full bg-custom-gray rounded-2xl shadow-2xl mt-[6vh] py-[3vh] px-3 sm:px-5 text-white'>
             <p className='text-lg sm:text-xl'>
                 I am actively seeking part-time engineering roles that revolve around frontend development.I am proficient in Android, Flutter and Next.js / React.js.
             </p>

@@ -37,7 +37,7 @@ export default function NavBar() {
 
     return (
         <div className="flex justify-center">
-            <div className="w-[34vw] h-[11vh] bg-custom-gray-90 rounded-full flex justify-evenly items-center">
+            <div className="w-[75vw] md:w-[50vw] lg:w-[34vw] h-[11vh] bg-custom-gray-90 rounded-full flex justify-evenly items-center">
                 <Button path="/home.svg" onClick={onHomeClick} isClicked={lastClicked=="home"} href={"/"}/>
                 {/* <Button path="/doc.svg" onClick={onDocClick} isClicked={lastClicked=="doc"} href={"/doc"}/> */}
                 {/* <Button path="/code.svg" onClick={onCodeClick} isClicked={lastClicked=="code"} href={"/code"}/> */}

@@ -20,7 +20,7 @@ const Button: React.FC<IButtonProps> = (props) => {
                     }
                     onClick={props.onClick}
                 >
-                    <Image width={500} src={props.path} alt="Home Button" />
+                    <Image width={500} height={500} src={props.path} alt="Home Button" />
                 </button>
         </Link>
 

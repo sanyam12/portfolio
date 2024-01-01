@@ -20,7 +20,7 @@ const ProjectCard: React.FC<IProjectCard> = (props) => {
                     alt="Product Image"
                     width={500}
                     height={500}
-                    className='rounded-2xl object-none sm:object-cover w-[40vw] md:w-[25vw] lg:w-[20vw] h-[18vh]'
+                    className='rounded-2xl object-contain w-[40vw] md:w-[25vw] lg:w-[20vw] h-[18vh]'
                 />
                 <div className='flex flex-col justify-start pt-3'>
                 <h3 className="text-3xl font-bold">{props.title}</h3>
