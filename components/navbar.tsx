@@ -1,4 +1,5 @@
 'use client'
+import { githubLink, linkedInLink, twitterLink } from "@/constants/links";
 import Button from "./button";
 import { useState } from "react";
 
@@ -41,9 +42,9 @@ export default function NavBar() {
                 <Button path="/home.svg" onClick={onHomeClick} isClicked={lastClicked=="home"} href={"/"}/>
                 {/* <Button path="/doc.svg" onClick={onDocClick} isClicked={lastClicked=="doc"} href={"/doc"}/> */}
                 {/* <Button path="/code.svg" onClick={onCodeClick} isClicked={lastClicked=="code"} href={"/code"}/> */}
-                <Button path="/github.svg" onClick={onGithubClick} isClicked={lastClicked=="github"} href={"https://github.com/sanyam12"}/>
-                <Button path="/linkedin.svg" onClick={onLinkedinClick} isClicked={lastClicked=="linkedin"} href={"https://www.linkedin.com/"}/>
-                <Button path="/twitter.svg" onClick={onTwitterClick} isClicked={lastClicked=="twitter"} href={"https://twitter.com/SanyamRatr61964"}/>
+                <Button path="/github.svg" onClick={onGithubClick} isClicked={lastClicked=="github"} href={githubLink}/>
+                <Button path="/linkedin.svg" onClick={onLinkedinClick} isClicked={lastClicked=="linkedin"} href={linkedInLink}/>
+                <Button path="/twitter.svg" onClick={onTwitterClick} isClicked={lastClicked=="twitter"} href={twitterLink}/>
             </div>
         </div>
     );
