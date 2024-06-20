@@ -1,4 +1,4 @@
-export const resumeLink = "https://drive.google.com/file/d/1gHz1GvgACG4h00xmsIvPTpLQsCO1siLy/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1ajS-bZx-IAYfQOBM09IGU7ArnxVy26ek/view?usp=sharing";
 export const linkedInLink = "https://www.linkedin.com/in/sanyam-ratreja/";
 export const twitterLink = "https://twitter.com/SanyamRatr61964";
 export const githubLink = "https://github.com/sanyam12";
